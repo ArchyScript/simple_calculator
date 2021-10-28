@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+        
+  <div class="container">
+    <div class="input-section">
+      <input type="number" id="previous-operand" readonly>
+      <input type="text" id="operator" readonly>
+      <input type="text" id="current-operand" readonly>
+    </div>
+    <div class="operation-btn">
+      <button class="special-key" id="clear-all">C</button>
+      <button class="special-key" id="clear-current-operand">CE</button>
+      <button class="special-key" id="negate">&PlusMinus;</button>
+      <button class="special-key" id="backspace">&DoubleLeftArrow;</button>
+      <button class="special-key" id="square">&times;<sup>2</sup></button>
+      <button class="special-key" id="inverse">&times;<sup>-1</sup></button>
+      <button class="special-key" id="sqr-root">&Sqrt; &times;</button>
+      <button class="operator-key" id="multiply">&times;</button>
+      <button class="number-btn">7</button>
+      <button class="number-btn">8</button>
+      <button class="number-btn">9</button>
+      <button class="operator-key" id="divide">&divide;</button>
+      <button class="number-btn">4</button>
+      <button class="number-btn">5</button>
+      <button class="number-btn">6</button>
+      <button class="operator-key" id="subtract">&minus;</button>
+      <button class="number-btn">1</button>
+      <button class="number-btn">2</button>
+      <button class="number-btn">3</button>
+      <button class="operator-key" id="add">&plus;</button>
+      <button class="number-btn" id="dot">.</button>
+      <button class="number-btn">0</button>
+      <button class="special-key" id="percent">&percnt;</button>
+      <button class="equal-key">&equals;</button>
+    </div>
+  </div>
+  
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
